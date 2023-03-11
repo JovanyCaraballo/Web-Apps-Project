@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "install": "npm-git install"
+  },
+  "gitDependencies": {
+    "private-package-name": "git@private.git.server:user/repo.git#revision",
+    "public-package-name": "https://github.com/user/repo.git#revision"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "git": "^0.1.5",
+    "npm-git-install": "^0.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store</title>
+    <link href="output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="myStyle.scss" type="text/scss">
+</head>
+
+<body class="text-center bg-gray-300 w-full border-8 border-green-900 p-12 m-0">
+    <div>
+        <header role="banner">
+            <img src="Christmas-Tree-2.jpg" alt="Tree" style="width:100%;height:20px;">
+            <h1 class="text-2xl font-semibold mt-4 mb-4 font-serif">Welcome to Our Christmas Store</h1>
+            <p class="mb-4">This page should be tried in safari, chrome or Mozila.</p>
+        </header>
+        <nav>
+            <ul>
+                <li class="inline font-bold text-xl font-arial rounded-lg bg-teal-400 p-1 m-2"> <a class="link:text-red-700 no-underline visited:text-white hover:text-pink-500 active:text-indigo-700" href="index.html">Home</a></li>
+                <li class="inline font-bold text-xl font-arial rounded-lg bg-teal-400 p-1 m-2"> <a class="link:text-red-700 no-underline visited:text-white hover:text-pink-500 active:text-indigo-700" href="contact.html">Contact Us</a></li>
+                <li class="inline font-bold text-xl font-arial rounded-lg bg-teal-400 p-1 m-2"> <a class="link:text-red-700 no-underline visited:text-white hover:text-pink-500 active:text-indigo-700" href="deals.html">Today&apos;s Deals</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1 class="mt-4 mb-2 text-2xl font-serif font-semibold text-center" style="background-color: mediumseagreen;">Shop Our Best Holiday Deals Online</h1>
+            <div id="main">
+                <script type="module" src="script.js"></script>
+            </div>
+
+            <table id="table" style="border: 1px solid black;">
+                <tr class="bg-red-500 text-white font-bold border-dotted">
+                    <!-- <th class="border-dotted border-2 border-gray-400"> -->
+                    <th>
+                        Name of the items
+                    </th>
+                    <!-- <th class="border-dotted border-2 border-gray-400"> -->
+                    <th>
+                        Original Price
+                    </th>
+                    <!-- <th class="border-dotted border-2 border-gray-400"> -->
+                    <th>
+                        Today&apos;s Deals
+                    </th>
+                </tr>
+            </table>
+            <div class="grid container text-justify gap-4 grid-cols-3 grid-rows-1 mx-auto animate-spin">
+                <div></div>
+                <!--- SVG adapted from https://fontawesomeicons.com/svg/icons/christmas-tree -->
+                <svg xmlns="http://www.w3.org/2000/svg"
+                class="scale-50 ml-8" 
+                width="240" height="240" viewBox="0 0 24 24" stroke-width="1" 
+                stroke="green" fill="none" stroke-linecap="round" 
+                stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" 
+                fill="none"/> <path d="M12 3l4 4l-2 1l4 4l-3 1l4 4h-14l4 -4l-3 -1l4 -4l-2 -1z" /> 
+                <path d="M14 17v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-3" /> </svg>
+            </div>
+        </article>
+
+
+        <footer class="-mt-16">© 2023 Jovany Caraballo</footer>
+        <!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a>-->
+    </div>
+</body>
+</html>
